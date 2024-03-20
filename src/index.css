@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    font-size: 1rem;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+    margin-bottom: 0em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.table {
+    vertical-align: middle;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+#root:focus {
+    outline: none;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #002842 transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #0028426f;
+    border-radius: 20px;
+    border: none;
+}
+
+html {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    height: 100%;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    scroll-padding-top: 5rem;
+}
+
+body {
+    background: linear-gradient(108deg, rgba(229, 228, 254, 0.90) 2.24%, rgba(53, 12, 12, 0.10) 87.95%);
+    color: #002842;
+    font-family: 'Rubik', sans-serif;
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

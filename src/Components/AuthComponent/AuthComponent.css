@@ -1,0 +1,93 @@
+.authcontainer {  
+  background: linear-gradient(108deg, rgba(208, 42, 14, 0.90) 2.25%, rgba(33, 22, 22, 0.90) 76.35%);
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.authscreen {
+  background: #FFF;
+  border: 6px solid #F6CCC5;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  padding: 2em;
+  width: auto;
+}
+
+.authintro {
+  text-align: center;
+}
+
+.authintro h5 {
+  color: #002842;
+  font-family: 'Rubik', sans-serif;
+  margin-top: 5em;
+}
+
+.authintro h6 {
+  background: -webkit-linear-gradient(rgba(208, 42, 14, 0.90), rgba(33, 22, 22, 0.90));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.authfoot p {
+  color: #002842;
+  font-family: 'Rubik', sans-serif;
+  font-weight: lighter;
+  margin-top: 5em;
+  text-align: center;
+}
+
+.login-button {
+  background: #EF4023;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  padding: 10px 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1em auto;
+}
+
+.login-button:hover {
+  background-color: #FFF;
+  border: 1px solid  #EF4023;
+  color: #EF4023;
+}
+
+.go-to-next-button {
+  background: #EF4023;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  padding: 10px 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1em auto;
+}
+
+.go-to-next-button:hover {
+  background-color: #FFF;
+  border: 1px solid  #EF4023;
+  color: #EF4023;
+}
+
+.go-to-next-button:disabled {
+  background-color: #ddd;
+  color: #888;
+  cursor: not-allowed;
+}

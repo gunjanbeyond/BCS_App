@@ -1,0 +1,29 @@
+.authintro h3 {
+    color: #002842;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 5em;
+  }
+
+  .authintro a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 1em;
+  }
+
+  .login-button {
+    background: #EF4023;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1em auto;
+  }
+  
+  .login-button:hover {
+    background-color: #FFF;
+    border: 1px solid  #EF4023;
+    color: #EF4023;
+  }

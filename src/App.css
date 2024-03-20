@@ -1,0 +1,15 @@
+@import '../node_modules/@syncfusion/ej2-base/styles/bootstrap.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/bootstrap.css';  
+@import '../node_modules/@syncfusion/ej2-calendars/styles/bootstrap.css';  
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/bootstrap.css';  
+@import '../node_modules/@syncfusion/ej2-inputs/styles/bootstrap.css';  
+@import '../node_modules/@syncfusion/ej2-navigations/styles/bootstrap.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/bootstrap.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/bootstrap.css';
+@import "../node_modules/@syncfusion/ej2-react-grids/styles/bootstrap.css";
+@import "../node_modules/@syncfusion/ej2-pdfviewer/styles/material.css";
+
+.navfont {
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.875rem;
+}

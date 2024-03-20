@@ -1,0 +1,103 @@
+.ordertypecontainer {
+  /* background: linear-gradient(108deg, rgba(229, 228, 254, 0.90) 2.24%, rgba(53, 12, 12, 0.10) 87.95%); */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.ordertypeform {
+  /* background: rgba(255, 255, 255, 0.3); */
+  background: rgba(0, 82, 135, 12%);
+  border-radius: 8px;
+  padding: 2em 1.5em 1em;
+  max-width: 500px;
+}
+
+.ordertypeform h3 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.ordertypeform label {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.ordertypeform span {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+.ordertypeform label {
+  margin-bottom: 1em;
+}
+
+.ordertypeform .form-check {
+  display: flex;
+  min-height: 1.5rem;
+  font-weight: lighter;
+  padding-left: 0em;
+  margin-bottom: 0.1em;
+  gap: 1em;
+}
+
+.ordertypeform .claimbtn {
+  background: #37374C;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5em 1em;
+}
+
+.ordertypeform .claimbtn:hover {
+  background-color: #FFF;
+  border: 1px solid #3d82eb;
+  color: #232323;
+}
+
+.disclaimer {
+  background: #FFF;
+  border-radius: 6px;
+  color: black;
+  padding: 0.875em;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.675rem;
+  font-weight: 500;
+  margin: 5em auto 0em;
+  text-align: center;
+}
+
+.disclaimer p {
+  margin: 0em;
+}
+
+.e-input-group,
+.e-input-group.e-success,
+.e-input-group.e-warning,
+.e-input-group.e-error,
+.e-input-group.e-control-wrapper,
+.e-input-group.e-control-wrapper.e-success,
+.e-input-group.e-control-wrapper.e-warning,
+.e-input-group.e-control-wrapper.e-error {
+  border: 0px solid !important;
+  border-width: 0px !important;
+
+}
+
+input.e-input,
+textarea.e-input,
+.e-input-group,
+.e-input-group.e-control-wrapper {
+  font-family: 'Rubik', sans-serif !important;
+  font-size: 1rem !important;
+  font-weight: normal;
+}
