@@ -36,7 +36,7 @@ const AuthComponent = () => {
   };
 
   const handleResponse = (response) => {
-
+    console.log("response")
     if (response) {
       const accounts = instance.getAllAccounts();
       if (accounts.length > 0) {
