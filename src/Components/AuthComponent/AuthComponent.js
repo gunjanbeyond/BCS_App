@@ -101,7 +101,7 @@ const AuthComponent = () => {
             />
           </div>
           <div className="authintro">
-            <h5>Welcome to BCS !</h5>
+            <h5>Welcome to BCS  sandeep & gunjan (BCS team)!</h5>
             {accounts.length === 0 ? (
               <div>
                 <button className="login-button" onClick={handleLogin}>
